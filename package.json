@@ -1,0 +1,23 @@
+{
+  "name": "ccnq4-kitty",
+  "version": "1.0.0",
+  "description": "Data types for CCNQ4",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --only=dev && rm package-lock.json && coffee *.coffee.md",
+    "prepublishOnly": "npm run build",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/shimaore/ccnq4-kitty"
+  },
+  "author": "shimaore",
+  "license": "Unlicense",
+  "devDependencies": {
+    "coffeescript": "^2.2.2"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.9"
+  }
+}
