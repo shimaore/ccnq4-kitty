@@ -4,7 +4,7 @@
   "description": "Data types for CCNQ4",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --only=dev && rm package-lock.json && coffee *.coffee.md",
+    "build": "npm install --only=dev && rm package-lock.json && coffee -c *.coffee.md",
     "prepublishOnly": "npm run build",
     "test": "mocha"
   },
