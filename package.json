@@ -1,6 +1,6 @@
 {
   "name": "ccnq4-kitty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Data types for CCNQ4",
   "main": "index.js",
   "scripts": {
