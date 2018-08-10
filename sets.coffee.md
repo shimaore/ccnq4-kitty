@@ -4,4 +4,6 @@ Which fields are stored as List/Array but are actually Set?
       'skills'
       'queues'
       'tags'
+      'groups'
+      'allowed_groups'
     ]
