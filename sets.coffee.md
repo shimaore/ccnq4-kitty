@@ -6,4 +6,6 @@ Which fields are stored as List/Array but are actually Set?
       'tags'
       'groups'
       'allowed_groups'
+
+      'hotdesk_lines' # kwaoo
     ]
